@@ -74,8 +74,8 @@ body {
 
 .oval {
     position: absolute;
-    right: 30%;
-    top: -110px;
+    left: 35%;
+    top: -40%;
 }
 
 .alala {
@@ -151,6 +151,7 @@ body {
 .news-newslist {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .news-item {
@@ -207,10 +208,6 @@ body {
     align-items: center;
 }
 
-.people-item:first {
-    padding-top: none;
-}
-
 .people-photo {
     padding-right: 30px;
 }
@@ -222,6 +219,10 @@ body {
     justify-content: space-between;
     gap: 20px;
     height: 100%;
+}
+
+.people-info:first-child {
+    padding-left: 0px;
 }
 
 .fullname {
@@ -243,7 +244,7 @@ body {
     top: 0px;
     padding-bottom: 10px;
     border-bottom: 1px solid #fff;
-    max-width: 122px;
+    max-width: 145px;
     font-family: 'PragmaticaC';
 }
 
@@ -280,4 +281,8 @@ body {
     display: flex;
     padding-top: 55px;
     padding-bottom: 55px;
+}
+
+.contact:last-child {
+    top: 0px;
 }
